@@ -1,3 +1,5 @@
+[View version with math support](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/single_neuron_model.md)
+
 ## Neuron biological properties
 
 Dendrites receive neurotransmitter and generate local post-synaptic potential (PSP), either excitatory by glutamate or inhibitory by GABA. Soma integrates all PSPs. Once membrane potential reaches the threshold, an action potential is generated. Action potentials are propagated via axon.
