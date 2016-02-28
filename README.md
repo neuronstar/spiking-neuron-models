@@ -10,4 +10,4 @@ Reading club:
 
 ## Notes
 
-* [single neuron model](single_neuron_model.html)
+* [single neuron model](single_neuron_model.md)
