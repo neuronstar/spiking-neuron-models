@@ -1,18 +1,4 @@
----
-published: true
-layout: article
-title: SRM Limitations and Neuronal Coding
-modified: 2016-03-02
-author: OctoMiao
-toc: true
-tags:
-  - computation-neuroscience
-comments: true
-categories: science
-summary: Computational neuroscience reading club week 2: limitations of SRM zero order and neuronal coding
----
-
-[Link to post](http://neuronstar.github.io/spiking-neuron-models/limitations-srm-contd-and-coding/index.html)
+[View version with math support](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/index.md)
 
 ## Review of Last Week's Reading
 
@@ -32,7 +18,7 @@ summary: Computational neuroscience reading club week 2: limitations of SRM zero
 	* regular firing neurons/fast-spiking neurons/bursting neurons: fig 1.3. fast-spiking is what would SRM0 give us
 	* rebound spikes: fig 1.3 D
 
-![Adaptation](assets/adaptation-of-neurons.png)
+![Adaptation](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/adaptation-of-neurons.png)
 
 
 ## Limitations (cont'd)
@@ -50,10 +36,10 @@ summary: Computational neuroscience reading club week 2: limitations of SRM zero
 
 
 * The PSP depends on the potential of the neuron itself when the presynaptic spike arrives.
-  ![Saturation](assets/saturation.png)
+  ![Saturation](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/saturation.png)
   Interesting facts:
   1. IPSP, usually leads to hyperpolarization. Amplitude is larger if the neuron has a higher potential when presynaptic spike arrives. However, the response is reversed, i.e., depolarizing, if the potential is already hyperpolarized a lot. Reason for a reversal response is that PSC switch to the other direction if the potential $u_0$ before spike is due to the wrong direction of the PSC.
-  ![](assets/reversed-ipsp.png)
+  ![](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/reversed-ipsp.png)
   2. EPSP is larger given lower potential, i.e., more depolarization.
 * **PSC**: postsynaptic current, which is proportional to the actual effective potential (**reversal potential**) on the neuron membrane.
 * Shunting inhibition: A few inhibitory synapses shunt input of a few hundred excitatory synapses.
@@ -105,7 +91,7 @@ One of the ways to present neuron spikes is the **spatio-temporal patterns** of 
   * However,
     1. no actual homogeneous identical neurons
   * Inhomogeneous? Population vector coding. $i$th neuron takes input $x_i$.
-    ![](assets/population-vector-coding.png)
+    ![](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/population-vector-coding.png)
     1. Given a vector input, what is the average position (location on the vector index) of all neurons that gives output?
     $\mathrm{Average Location of Stimulated Neurons}=\frac{\int_t^{t+\Delta t} dt \sum_i \sum_f x_j \delta(t-t_j^{(f)}) }{\int_t^{t+\Delta t} dt \sum_i \sum_f \delta(t-t_j^{(f)}) }$.
     2. Used on neuronal activiy in primate motor cortex. <- Not sure how this is done.
@@ -115,12 +101,12 @@ One of the ways to present neuron spikes is the **spatio-temporal patterns** of 
 ### Spike Codes
 
 1. Time-to-first-spike, a Simple Scheme of Spiking Codes: fig 1.12. Three neurons which are responsible for reading a picture of three pixels of three different color for example, will spike sequentially if each of them are responsible for a different color.
-   ![](assets/simple-spike-coding-model-of-visual.png)
+   ![](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/simple-spike-coding-model-of-visual.png)
    * Assuming each neuron is inactive after its spike <- due to some mysterious inhibition: this is called **time-to-first-spike**
 2. Coding by phase (fig 1.13): periodic spikes (common in hippocampus etc), relative phase between neurons (or relative to oscillatioins of background periodic spikes) could carry information.
    * what is background oscillation? fig 1.14
 3. Example of sychronization and information
-   ![](assets/synchronized-for-same-objects.png)
+   ![](https://raw.githubusercontent.com/neuronstar/spiking-neuron-models/master/limitations-srm-contd-and-coding/assets/synchronized-for-same-objects.png)
 4. Reverse correlation approach: investigate the averaged input instead of averaged PSTH (as we have done in Fig 1.10). So we find what input is required to generate a spike. Given spike train we can estimate the input by summing up the input of each spike! Fig 1.16B. Eqn 1.12.
 
 ### Relation Between Spike Codes and Rate Codes
