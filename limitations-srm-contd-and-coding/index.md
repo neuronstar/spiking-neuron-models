@@ -12,7 +12,7 @@ categories: science
 summary: Computational neuroscience reading club week 2: limitations of SRM zero order and neuronal coding
 ---
 
-[Link to post](spiking-neuron-models/limitations-srm-contd-and-coding/index.html)
+[Link to post](http://neuronstar.github.io/spiking-neuron-models/limitations-srm-contd-and-coding/index.html)
 
 ## Review of Last Week's Reading
 
