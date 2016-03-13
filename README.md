@@ -12,3 +12,4 @@ Reading club:
 
 * [single neuron model](single_neuron_model.md)
 * [limitations of SRM and Neuron Coding](limitations-srm-contd-and-coding/index.md)
+* [Equilibrium Potential and  Hodgkin-Huxley Model.md](03.Equilibrium Potential and  Hodgkin-Huxley Model.md)
