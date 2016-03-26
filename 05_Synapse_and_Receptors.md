@@ -27,7 +27,7 @@ $$\mathrm{g_{AMPS}}(t)=\bar{g}_\mathrm{AMPA} N [e^{-(t-t^f)/\tau_\mathrm{decay}}
 $$\mathrm{g_{NMDA}}(t)=\bar{g}_\mathrm{NMDA} N [e^{-(t-t^f)/\tau_\mathrm{decay}}-e^{-(t-t^f)/\tau_\mathrm{rise}}]g_\mathrm{\infty}\Theta(t-t^f),$$ with $g_{\infty} = (1+e^{\alpha u}[\mathrm{Mg}^{2+}]_o/\beta)^{-1}.$
 
 ###Receptors
-See this reference for differences between AMPA and NMDA receptor. http://www.sumanasinc.com/webcontent/animations/content/receptors.html
+See this reference for differences between AMPA and NMDA receptor.   http://www.sumanasinc.com/webcontent/animations/content/receptors.html
 
 
 ### Spatial structure of dendritic tree
