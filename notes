@@ -1,0 +1,31 @@
+## Synapse and receptor
+
+What is left from last section:  calcium-activated potassium channels,
+low-threshold and high-threshold calcium-activated potassium channels,  are responsible for post-inhibitory-rebound and adaptation respectively.
+
+### Calcium dynamics
+
+Calcium concentration varies in different parts of neuron: soma, dendrite and spines, enabling neurotransmitter release, action potential generation and synapse stabilization.
+
+$$\mathrm{\frac{d[Ca^{2+}]_i}{dt}}=\mathrm{-\tau_{Ca}^{-1}[Ca^{2+}]_i+\phi_{Ca}I_{Ca}}$$
+
+### Synapse
+Synapses could be classified as inhibitory synapses (mainly using GABA as neurotransmitter) and excitatory synapses (adopting glutamate as neurotransmitter).
+The activation of post-synaptic element is realized by binding of neurotransmitter and receptor, ion channel opening and post-synaptic current (or potential) generation, or other intracellular cascade. The amount of current pass through a specific synapse could be described as a function of synaptic conductance $\mathrm{g_{syn}}$ and driving potential.
+$$\mathrm{I_{syn}}(t)=\mathrm{g_{syn}}(t)(u-\mathrm{E_{syn})}$$
+The conductance of synapse is an exponential decay function:
+$$\mathrm{g_{syn}}(t)=\sum_f\bar{g}_\mathrm{syn}e^{-(t-t^f)/\tau}\Theta(t-t^f).$$
+
+for inhibitory synapse, which has two types of current components:
+$$\mathrm{g_{syn}}(t)=\sum_f(\bar{g}_\mathrm{fast}e^{-(t-t^f)/\tau_\mathrm{fast})}+\bar{g}_\mathrm{slow}e^{-(t-t^f)/\tau_\mathrm{slow})})\Theta(t-t^f).$$ 
+for excitatory synapse, which adapts two types of receptors: NMDA (slow) and AMPA (fast):
+$$\mathrm{g_{AMPS}}(t)=\bar{g}_\mathrm{AMPA} N [e^{-(t-t^f)/\tau_\mathrm{decay}}-e^{-(t-t^f)/\tau_\mathrm{rise}}]\Theta(t-t^f).$$ 
+
+$$\mathrm{g_{NMDA}}(t)=\bar{g}_\mathrm{NMDA} N [e^{-(t-t^f)/\tau_\mathrm{decay}}-e^{-(t-t^f)/\tau_\mathrm{rise}}]g_\mathrm{\infty}\Theta(t-t^f),$$ with $g_{\infty} = (1+e^{\alpha u}[\mathrm{Mg}^{2+}]_o/\beta)^{-1}.$
+
+###Receptors
+See this reference for differences between AMPA and NMDA receptor. http://www.sumanasinc.com/webcontent/animations/content/receptors.html
+
+
+### Spatial structure of dendritic tree
+Cable equations based on Kirchhoff's law. See Green's function solving the stationary solution of cable equations in next section.
