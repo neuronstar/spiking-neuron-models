@@ -15,3 +15,5 @@ Reading club:
 * [Equilibrium Potential and  Hodgkin-Huxley Model](03.Equilibrium_Potential_and_Hodgkin-Huxley_Model.md) by [@harryhare](https://github.com/harryhare)
 * [The Zoo of ion channels](04.The_Zoo_of_ion_channels.md) by [@skyworlds](https://github.com/skyworlds)
 * [Synapse and Receptors](05.Synapse_and_Receptors.md) by [@ErbB4](https://github.com/ErbB4)
+* [Cable Equation and Its Solutions]() by [@OctoMiao](https://github.com/emptymalei)
+   * [Supplementary PDF: Cable Equation and Its Solutions](06.1.cable_equation_green_function.pdf) by [@OctoMiao](https://github.com/emptymalei) 
