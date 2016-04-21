@@ -17,3 +17,4 @@ Reading club:
 * [Synapse and Receptors](05.Synapse_and_Receptors.md) by [@ErbB4](https://github.com/ErbB4)
 * [Cable Equation and Its Solutions](06.Cable_Equation_and_Its_Solutions.md) by [@OctoMiao](https://github.com/emptymalei)
    * [Supplementary PDF: Cable Equation and Its Solutions](06.1.cable_equation_green_function.pdf) by [@OctoMiao](https://github.com/emptymalei)
+* [Reduction to two dimensions and Phase plane analysis](07.Reduction_to_two_dimensions_and_Phase_plane_analysis.md) by [@harryhare](https://github.com/harryhare)
