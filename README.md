@@ -24,5 +24,5 @@ Reading club:
 * [Reduction to two dimensions and Phase plane analysis](07.Reduction_to_two_dimensions_and_Phase_plane_analysis.md) by [@harryhare](https://github.com/harryhare)
 * [Integrate-and-fire Models (Part 1)](08.Integrate-and-Fire-Models-1.md) by [@OctoMiao](https://github.com/emptymalei)
 * [From detailed models to formal spiking neurons ](09.From_detailed_models_to_formal_spiking_neurons.md) by [@harryhare](https://github.com/harryhare)
-* [Noise and Renewal Process](09.Noise_and_Renewal_Process) by [@ErbB4](https://github.com/ErbB4)
-* [Stationary Renewal Theory](10.Stationary_Renewal_Theory.md) by [@OctoMiao](https://github.com/emptymalei)
+* [Noise and Renewal Process](10.Noise_and_Renewal_Process) by [@ErbB4](https://github.com/ErbB4)
+* [Stationary Renewal Theory](11.Stationary_Renewal_Theory.md) by [@OctoMiao](https://github.com/emptymalei)
