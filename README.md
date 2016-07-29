@@ -26,4 +26,7 @@ Reading club:
 * [From detailed models to formal spiking neurons ](09.From_detailed_models_to_formal_spiking_neurons.md) by [@harryhare](https://github.com/harryhare)
 * [Noise and Renewal Process](10.Noise_and_Renewal_Process) by [@ErbB4](https://github.com/ErbB4)
 * [Stationary Renewal Theory](11.Stationary_Renewal_Theory.md) by [@OctoMiao](https://github.com/emptymalei)
-* [All Neuron Models](12.all_neuron_models.md) by [@ErbB4](https://github.com/ErbB4)
+* [Escape Noise](12.Escape_Noise.md) by [@harryhare](https://github.com/harryhare)
+* [All Neuron Models](13.all_neuron_models.md) by [@ErbB4](https://github.com/ErbB4)
+* [Slow Noise](14.slow-noise.md) by [@OctoMiao](https://github.com/emptymalei)
+                                                   
