@@ -29,4 +29,4 @@ Reading club:
 * [Escape Noise](12.Escape_Noise.md) by [@harryhare](https://github.com/harryhare)
 * [All Neuron Models](13.all_neuron_models.md) by [@ErbB4](https://github.com/ErbB4)
 * [Slow Noise](14.slow-noise.md) by [@OctoMiao](https://github.com/emptymalei)
-                                                   
+* [Diffusive Noise and The subthreshold Regime](15.Diffusive_Noise_and_The_subthreshold_Regime.md) by [@harryhare](https://github.com/harryhare)                                                
