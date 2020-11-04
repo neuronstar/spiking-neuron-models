@@ -1,3 +1,6 @@
+---
+published: false
+---
 # spiking-neuron-models
 
 To join chat with math support (no registration required): [neuroscience@hack.chat](https://hack.chat/?neuroscience)
@@ -43,8 +46,8 @@ Reading club:
 
 * [Slow Noise](14.slow-noise.md) by [@OctoMiao](https://github.com/emptymalei)
 
-* [Diffusive Noise and The subthreshold Regime](15.Diffusive_Noise_and_The_subthreshold_Regime.md) by [@harryhare](https://github.com/harryhare)      
+* [Diffusive Noise and The subthreshold Regime](15.Diffusive_Noise_and_The_subthreshold_Regime.md) by [@harryhare](https://github.com/harryhare)
 
-* [Stochastic Process](16.stochastic_process.md) by [@ErbB4](https://github.com/ErbB4)                                       
+* [Stochastic Process](16.stochastic_process.md) by [@ErbB4](https://github.com/ErbB4)
 
   ​
